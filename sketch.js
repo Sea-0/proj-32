@@ -115,7 +115,7 @@ function mousePressed()
 {if(gameState!=="end"){
   counter++
   ball=new Ball(mouseX, 10, 10, 10);
-}  if(counter>=5){gameState="end"}
+}  if(counter>5){gameState="end"}
     }
 
 
